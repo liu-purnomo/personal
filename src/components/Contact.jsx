@@ -1,11 +1,12 @@
-import { useState, useRef } from "react";
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
+import { useRef, useState } from "react";
 
-import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
+import { EarthCanvas } from "./canvas";
+const EMAILJS_API = process.env.EMAILJS_API;
 
 const Contact = () => {
   const formRef = useRef();
@@ -27,16 +28,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "noreply@liupurnomo.com",
+        "template_1",
         {
-          form_name: form.name,
-          to_name: "Liron",
+          from_name: form.name,
+          to_name: "Liu Purnomo",
           from_email: form.email,
-          to_email: "contact@mail.com",
+          to_email: "hi@liupurnomo.com",
           message: form.message,
         },
-        "Jqq9AvwIuSjoMiA5c"
+        EMAILJS_API
       )
       .then(
         () => {
