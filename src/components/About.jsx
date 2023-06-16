@@ -47,11 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript, and
-        expertise in frameworks like React, Node.js, and Vue.js. I'm a quick
-        learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        Passionate about the world of IT, I am driven to delve into web and
+        mobile programming, ultimately choosing a career path as a full-stack
+        developer after completing the Full-Stack course at Hacktiv8. With a
+        strong foundation in programming and a keen interest in technology, I
+        transitioned from a career in the drone industry to pursue my passion
+        for creating innovative and user-friendly digital solutions. Eager to
+        contribute my skills as a versatile full-stack developer, I am excited
+        to embrace new challenges and contribute to the ever-evolving field of
+        web and mobile development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

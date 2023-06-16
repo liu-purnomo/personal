@@ -21,7 +21,14 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
+import fasi from "./company/fasi.png";
+import gas from "./company/gas.jpeg";
+import kkg from "./company/kkg.png";
 import meta from "./company/meta.png";
+import rpi from "./company/rpi.png";
+import sampan from "./company/sampan.jpeg";
+import sawit from "./company/sawit.png";
+import school from "./company/school.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -30,6 +37,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import equiz from "./project/equiz.png";
+
 export {
   backend,
   carrent,
@@ -37,12 +46,16 @@ export {
   creator,
   css,
   docker,
+  equiz,
+  fasi,
   figma,
+  gas,
   git,
   github,
   html,
   javascript,
   jobit,
+  kkg,
   logo,
   menu,
   meta,
@@ -51,6 +64,10 @@ export {
   nodejs,
   reactjs,
   redux,
+  rpi,
+  sampan,
+  sawit,
+  school,
   shopify,
   starbucks,
   tailwind,

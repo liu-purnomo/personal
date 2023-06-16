@@ -7,6 +7,7 @@ import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 import { EarthCanvas } from "./canvas";
 const EMAILJS_API = process.env.EMAILJS_API;
+// const EMAILJS_API = "null";
 
 const Contact = () => {
   const formRef = useRef();
