@@ -39,6 +39,7 @@ import tripguide from "./tripguide.png";
 
 import drone from "./project/drone.png";
 import equiz from "./project/equiz.png";
+import remotepilot from "./project/remotepilot.png";
 
 export {
   backend,
@@ -66,6 +67,7 @@ export {
   nodejs,
   reactjs,
   redux,
+  remotepilot,
   rpi,
   sampan,
   sawit,

@@ -17,6 +17,7 @@ import {
   nodejs,
   reactjs,
   redux,
+  remotepilot,
   rpi,
   sampan,
   sawit,
@@ -205,6 +206,48 @@ const experiences = [
 
 const projects = [
   {
+    name: "Drone Indonesia",
+    description:
+      "social media platform for Indonesia's drone community. Connect, share, and collaborate with fellow enthusiasts, professionals, and hobbyists!.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: drone,
+    source_code_link: "https://drone.or.id/",
+  },
+  {
+    name: "Remote Pilot Indonesia",
+    description:
+      "An application to showcase portfolios for remote pilots, complete with their skills and a list of certifications they possess.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: remotepilot,
+    source_code_link: "https://remotepilot.id/",
+  },
+  {
     name: "Equiz Plus",
     description:
       "A web based online test platform with integration of Text-to-Speech and Speech-to-Text accessibility.",
@@ -240,26 +283,6 @@ const projects = [
     ],
     image: equiz,
     source_code_link: "https://e-quiz.xyz/",
-  },
-  {
-    name: "Drone Indonesia",
-    description: "A web application for remote pilot community.",
-    tags: [
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: drone,
-    source_code_link: "https://drone.or.id/",
   },
 ];
 
