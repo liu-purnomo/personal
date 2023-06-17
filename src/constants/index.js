@@ -3,6 +3,7 @@ import {
   creator,
   css,
   docker,
+  drone,
   equiz,
   fasi,
   figma,
@@ -239,6 +240,26 @@ const projects = [
     ],
     image: equiz,
     source_code_link: "https://e-quiz.xyz/",
+  },
+  {
+    name: "Drone Indonesia",
+    description: "A web application for remote pilot community.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: drone,
+    source_code_link: "https://drone.or.id/",
   },
 ];
 

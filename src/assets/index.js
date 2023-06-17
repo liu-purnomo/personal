@@ -37,6 +37,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import drone from "./project/drone.png";
 import equiz from "./project/equiz.png";
 
 export {
@@ -46,6 +47,7 @@ export {
   creator,
   css,
   docker,
+  drone,
   equiz,
   fasi,
   figma,
