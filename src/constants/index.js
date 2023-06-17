@@ -15,6 +15,7 @@ import {
   mobile,
   mongodb,
   nodejs,
+  quran,
   reactjs,
   redux,
   remotepilot,
@@ -208,7 +209,7 @@ const projects = [
   {
     name: "Drone Indonesia",
     description:
-      "social media platform for Indonesia's drone community. Connect, share, and collaborate with fellow enthusiasts, professionals, and hobbyists!.",
+      "A social media platform for Indonesia's drone community. Connect, share, and collaborate with fellow enthusiasts, professionals, and hobbyists!.",
     tags: [
       {
         name: "PHP",
@@ -246,6 +247,31 @@ const projects = [
     ],
     image: remotepilot,
     source_code_link: "https://remotepilot.id/",
+  },
+  {
+    name: "Qur'an App",
+    description:
+      "A web based application quran.An all-in-one Quran app with standard features, including daily prayer times, and a collection of daily supplications. A comprehensive spiritual companion.",
+    tags: [
+      {
+        name: "Rest API.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vue.Js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind.css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "axios.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quran,
+    source_code_link: "https://quran.liupurnomo.com/",
   },
   {
     name: "Equiz Plus",

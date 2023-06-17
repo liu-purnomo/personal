@@ -39,6 +39,7 @@ import tripguide from "./tripguide.png";
 
 import drone from "./project/drone.png";
 import equiz from "./project/equiz.png";
+import quran from "./project/quran.png";
 import remotepilot from "./project/remotepilot.png";
 
 export {
@@ -65,6 +66,7 @@ export {
   mobile,
   mongodb,
   nodejs,
+  quran,
   reactjs,
   redux,
   remotepilot,
