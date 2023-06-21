@@ -47,15 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Passionate about the world of IT, I am driven to delve into web and
-        mobile programming, ultimately choosing a career path as a full-stack
-        developer after completing the Full-Stack course at Hacktiv8. With a
-        strong foundation in programming and a keen interest in technology, I
-        transitioned from a career in the drone industry to pursue my passion
-        for creating innovative and user-friendly digital solutions. Eager to
-        contribute my skills as a versatile full-stack developer, I am excited
-        to embrace new challenges and contribute to the ever-evolving field of
-        web and mobile development.
+        I am an enthusiastic IT professional with a strong passion for
+        technology and a background in the drone industry. I have successfully
+        transitioned my career to become a Fullstack Developer, equipped with
+        diverse skills and experiences. Additionally, I hold certifications as a
+        Public Speaker Professional, a certified instructor/master instructor
+        from BNSP (National Certification Agency), and a certified Social Media
+        Strategist. My combination of technical expertise, public speaking
+        abilities, instructional skills, and social media knowledge enables me
+        to bring a unique set of capabilities to any professional setting.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
