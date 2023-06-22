@@ -2,15 +2,12 @@ import {
   backend,
   bootstrap,
   creator,
-  css,
   docker,
   drone,
   equiz,
   fasi,
-  figma,
   gas,
   git,
-  html,
   javascript,
   kkg,
   mobile,
@@ -27,7 +24,6 @@ import {
   sawit,
   school,
   tailwind,
-  threejs,
   typescript,
   vue,
   web,
@@ -68,14 +64,6 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -121,16 +109,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",

@@ -7,6 +7,13 @@ import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
 
+import discord from "./medsos/discord.png";
+import githubMedsos from "./medsos/github.png";
+import instagram from "./medsos/instagram.png";
+import linkedin from "./medsos/linkedin.png";
+import mail from "./medsos/mail.png";
+import twitter from "./medsos/twitter.png";
+
 import bootstrap from "./tech/bootstrap.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -54,6 +61,7 @@ export {
   close,
   creator,
   css,
+  discord,
   docker,
   drone,
   equiz,
@@ -63,11 +71,15 @@ export {
   gas,
   git,
   github,
+  githubMedsos,
   html,
+  instagram,
   javascript,
   jobit,
   kkg,
+  linkedin,
   logo,
+  mail,
   menu,
   meta,
   mobile,
@@ -89,6 +101,7 @@ export {
   tesla,
   threejs,
   tripguide,
+  twitter,
   typescript,
   vue,
   web,

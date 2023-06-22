@@ -1,13 +1,19 @@
 import emailjs from "@emailjs/browser";
-import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 
+import {
+  discord,
+  githubMedsos,
+  instagram,
+  linkedin,
+  mail,
+  twitter,
+} from "../assets";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
-import { EarthCanvas } from "./canvas";
-// const EMAILJS_API = process.env.EMAILJS_API;
-const EMAILJS_API = "null";
+const EMAILJS_API = process.env.EMAILJS_API;
+// const EMAILJS_API = "null";
 
 const Contact = () => {
   const formRef = useRef();
@@ -64,7 +70,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
-      <motion.div
+      <div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
@@ -117,14 +123,33 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-      </motion.div>
+      </div>
 
-      <motion.div
+      <div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]  p-8 rounded-2xl"
       >
-        <EarthCanvas />
-      </motion.div>
+        <center>
+          <a href="mailto:hi@liupurnomo.com" target="_blank">
+            <img src={mail} alt="" width={50 + "%"} className="mb-4" />
+          </a>
+          <a href="https://linkedin.com/in/liupurnomo" target="_blank">
+            <img src={linkedin} alt="" width={50 + "%"} className="mb-4" />
+          </a>
+          <a href="https://github.com/liu-purnomo" target="_blank">
+            <img src={githubMedsos} alt="" width={50 + "%"} className="mb-4" />
+          </a>
+          <a href="https://twitter.com/liupurnomo" target="_blank">
+            <img src={discord} alt="" width={50 + "%"} className="mb-4" />
+          </a>
+          <a href="https://instagram.com/liupurnomo" target="_blank">
+            <img src={instagram} alt="" width={50 + "%"} className="mb-4" />
+          </a>
+          <a href="https://twitter.com/liupurnomo" target="_blank">
+            <img src={twitter} alt="" width={50 + "%"} className="mb-4" />
+          </a>
+        </center>
+      </div>
     </div>
   );
 };
