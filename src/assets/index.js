@@ -7,19 +7,24 @@ import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
 
+import bootstrap from "./tech/bootstrap.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
+import firebase from "./tech/firebase.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import pinia from "./tech/pinia.png";
+import postgres from "./tech/postgres.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
+import vue from "./tech/vue.png";
 
 import fasi from "./company/fasi.png";
 import gas from "./company/gas.jpeg";
@@ -44,6 +49,7 @@ import remotepilot from "./project/remotepilot.png";
 
 export {
   backend,
+  bootstrap,
   carrent,
   close,
   creator,
@@ -53,6 +59,7 @@ export {
   equiz,
   fasi,
   figma,
+  firebase,
   gas,
   git,
   github,
@@ -66,6 +73,8 @@ export {
   mobile,
   mongodb,
   nodejs,
+  pinia,
+  postgres,
   quran,
   reactjs,
   redux,
@@ -81,5 +90,6 @@ export {
   threejs,
   tripguide,
   typescript,
+  vue,
   web,
 };

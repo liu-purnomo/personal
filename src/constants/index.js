@@ -1,5 +1,6 @@
 import {
   backend,
+  bootstrap,
   creator,
   css,
   docker,
@@ -15,6 +16,8 @@ import {
   mobile,
   mongodb,
   nodejs,
+  pinia,
+  postgres,
   quran,
   reactjs,
   redux,
@@ -26,6 +29,7 @@ import {
   tailwind,
   threejs,
   typescript,
+  vue,
   web,
 } from "../assets";
 
@@ -81,12 +85,28 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Vue JS",
+    icon: vue,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "Pinia",
+    icon: pinia,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "postgreSQL",
+    icon: postgres,
   },
   {
     name: "Tailwind CSS",
