@@ -81,7 +81,9 @@ const Navbar = () => {
           ))}
           <li className="text-white text-[18px] font-medium cursor-pointer">
             {" "}
-            <a href="https://blog.liupurnomo.com">My Blog</a>{" "}
+            <a href="https://blog.liupurnomo.com" target="_blank">
+              My Blog
+            </a>{" "}
           </li>
         </ul>
 
