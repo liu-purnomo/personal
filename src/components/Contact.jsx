@@ -131,22 +131,28 @@ const Contact = () => {
       >
         <center>
           <a href="mailto:hi@liupurnomo.com" target="_blank">
-            <img src={mail} alt="" width={50 + "%"} className="mb-4" />
+            <img
+              src={mail}
+              alt=""
+              width={75 + "%"}
+              //margin button 4, when screen is small will be 8, and when screen is large will be 4
+              className="mb-4"
+            />
           </a>
           <a href="https://linkedin.com/in/liupurnomo" target="_blank">
-            <img src={linkedin} alt="" width={50 + "%"} className="mb-4" />
+            <img src={linkedin} alt="" width={75 + "%"} className="mb-4" />
           </a>
           <a href="https://github.com/liu-purnomo" target="_blank">
-            <img src={githubMedsos} alt="" width={50 + "%"} className="mb-4" />
+            <img src={githubMedsos} alt="" width={75 + "%"} className="mb-4" />
           </a>
           <a href="https://twitter.com/liupurnomo" target="_blank">
-            <img src={discord} alt="" width={50 + "%"} className="mb-4" />
+            <img src={discord} alt="" width={75 + "%"} className="mb-4" />
           </a>
           <a href="https://instagram.com/liupurnomo" target="_blank">
-            <img src={instagram} alt="" width={50 + "%"} className="mb-4" />
+            <img src={instagram} alt="" width={75 + "%"} className="mb-4" />
           </a>
           <a href="https://twitter.com/liupurnomo" target="_blank">
-            <img src={twitter} alt="" width={50 + "%"} className="mb-4" />
+            <img src={twitter} alt="" width={75 + "%"} className="mb-4" />
           </a>
         </center>
       </div>
