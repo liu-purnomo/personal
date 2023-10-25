@@ -1,167 +1,34 @@
-<a name="readme-top"></a>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<div align="center">
+## Getting Started
 
-  <h1>Liu Purnomo Portfolio</h1>
-  
-  <p>
-   Liu Purnomo Portfolio is a modern UI/UX and functional Developer Portfolio Web built with React & Three.js
-  </p>
-
-</div>
-
-<br />
-
-<!-- Table of Contents -->
-<details>
-
-<summary>
-
-# :notebook_with_decorative_cover: Table of Contents
-
-</summary>
-
-- [About the Project](#star2-about-the-project)
-  - [Folder Structure](#bangbang-folder-structure)
-  - [Tech Stack](#space_invader-tech-stack)
-- [Getting Started](#toolbox-getting-started)
-  - [Installation](#gear-installation)
-  - [Run Locally](#running-run-locally)
-- [Contributing](#wave-contributing)
-- [License](#warning-license)
-- [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
-
-</details>
-
-<!-- About the Project -->
-
-## :star2: About the Project
-
-<div align="center">
-  <img src="readme_assets/3d-portfolio.png" height="auto" width="90%"/>
-</div>
-
-<br />
-
-This repository houses an well-designed and functional Developer Portfolio Website consisting Navbar, Hero, Overview, Work Experience, Technologies, Projects, Testimonials and Contact sections built with React & Three.js using TailwindCSS ⏭
-
-<!-- Folder Structure -->
-
-### :bangbang: Folder Structure
-
-Here is the folder structure of 3D-Portfolio.
+First, run the development server:
 
 ```bash
-Threejs_3D_Portfolio/
-|- public/
-|- src/
-  |-- assets/
-  |-- components/
-  |-- constants/
-  |-- hoc/
-  |-- utils/
-  |-- App.jsx
-  |-- index.css
-  |-- main.jsx
-  |-- styles.js
-|- postcss.config.cjs
-|- tailwind.config.cjs
-|- vite.config.js
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-<br />
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<!-- TechStack -->
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### :space_invader: Tech Stack
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-[![My Skills](https://skillicons.dev/icons?i=js,react,tailwind,threejs)](https://skillicons.dev)
+## Learn More
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+To learn more about Next.js, take a look at the following resources:
 
-<!-- Getting Started -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## :toolbox: Getting Started
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-<!-- Installation -->
+## Deploy on Vercel
 
-### :gear: Installation
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-#### Step 1:
-
-Download or clone this repo by using the link below:
-
-```bash
- git@github.com:liu-purnomo/personal.git
-```
-
-#### Step 2:
-
-3D-Portfolio using NPM (Node Package Manager), therefore, make sure that Node.js is installed by execute the following command in console:
-
-```bash
-  node -v
-```
-
-#### Step 3:
-
-At the main folder execute the following command in console to get the required dependencies:
-
-```bash
-  npm install
-```
-
-#### Step 4:
-
-At the main folder execute the following command in console to creates a build directory with a production build of 3d portfolio:
-
-```bash
-  npm run build
-```
-
-#### Step 5:
-
-At the main folder execute the following command in console to run the server:
-
-```bash
-  npm run start
-```
-
-<!-- Run Locally -->
-
-### :running: Run Locally
-
-#### Step 1:
-
-At the main folder execute the following command in console to get the required dependencies:
-
-```bash
-  npm install
-```
-
-#### Step 2:
-
-At the main folder execute the following command in console to run the development server:
-
-```bash
-  npm run dev
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Contributing -->
-
-<!-- Acknowledgments -->
-
-## :gem: Acknowledgements
-
-This section used to mention useful resources and libraries that used in 3D Portfolio
-
-- [Email JS](https://www.emailjs.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [React Tilt](https://www.npmjs.com/package/react-tilt)
-- [React Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component)
-- #JSMastery
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
