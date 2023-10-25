@@ -42,7 +42,7 @@ const config: Config = {
           "dark-light": "rgba(231,81,90,.15)",
         },
         warning: {
-          DEFAULT: "#e2a03f",
+          DEFAULT: "#dc6539",
           light: "#fff9ed",
           "dark-light": "rgba(226,160,63,.15)",
         },
@@ -52,7 +52,7 @@ const config: Config = {
           "dark-light": "rgba(33,150,243,.15)",
         },
         dark: {
-          DEFAULT: "#3b3f5c",
+          DEFAULT: "#1b2951",
           light: "#eaeaec",
           "dark-light": "rgba(59,63,92,.15)",
         },
