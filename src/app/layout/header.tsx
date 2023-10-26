@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="z-40 dark sticky top-0">
       <div className="shadow-sm">
-        <div className="relative flex w-full bg-white px-5 py-2.5 dark:bg-black">
+        <div className="relative flex w-full bg-dark px-5 py-2.5">
           <div className="w-[900px] flex justify-between mx-auto">
             <div className="horizontal-logo flex items-center gap-5 justify-between ltr:mr-2 rtl:ml-2 ">
               <Link
@@ -14,7 +14,7 @@ export default function Header() {
                 className="main-logo flex shrink-0 items-center gap-2"
               >
                 <Image
-                  src="/logo.png"
+                  src="/logo/logo-primary.png"
                   alt="Logo Liu Purnomo"
                   width={24}
                   height={24}
@@ -30,8 +30,8 @@ export default function Header() {
                 <IconMenu className="h-5 w-5" />
               </button>
             </div>
-            <div className="flex items-center space-x-1.5  dark:text-[#d0d2d6] ltr:sm:ml-0 sm:rtl:mr-0 lg:space-x-2">
-              <button className="btn btn-outline-primary">kontak</button>
+            <div className="flex items-center space-x-1.5   ltr:sm:ml-0 sm:rtl:mr-0 lg:space-x-2">
+              <button className="btn btn-outline-warning">kontak</button>
             </div>
           </div>
         </div>
